@@ -26,7 +26,7 @@ The training process is monitored by [tensorboardX](https://github.com/lanpa/ten
 
 ## Results
 
-Here is traning history for both datasets:
+Here is the training history for both datasets:
 
 ![MNIST losses](images/mnist_hist.png)
 ![fashion losses](images/fashion_hist.png)
