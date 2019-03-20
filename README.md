@@ -22,7 +22,7 @@ wgan.train(data_loader, n_epochs)
 
 The argument `latent_shape` is the shape whatever the generator's forward function accepts as input.
 
-The training process if monitored by [tensorboardX](https://github.com/lanpa/tensorboardX).
+The training process is monitored by [tensorboardX](https://github.com/lanpa/tensorboardX).
 
 ## Results
 
@@ -38,7 +38,9 @@ Two gifs of the training process:
 
 ## Interpolation in latent space
 
-We can generate samples going smoothly from one class to another by interpolating points on the latent space (done in [this notebook]('interpolation.ipynb')):
+We can generate samples going smoothly from one class to another by interpolating points on the latent space (done in [this notebook](interpolation.ipynb)):
 
 ![MNIST interpolation](images/mnist_interp.png)
 ![fashion interpolation](images/fashion_interp.png)
+
+The weights of the models are on the saved_models folder.
